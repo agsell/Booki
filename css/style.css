@@ -31,7 +31,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
@@ -40,21 +40,19 @@ header .logo {
     width: 61px;
 }
 
-header div {
+header .menu {
     position: relative;
     top: -8px;
-    right: 50px;
     display: flex;
-    justify-content: flex-end;
     gap: 68px;
 }
 
-header div a {
+header .menu a {
     border-top: 2px solid transparent;
-    padding: 14px;
+    padding: 20px;
 }
 
-header div a:hover {
+header .menu a:hover {
     color: #0065FC;
     border-color: #0065FC;
 }
