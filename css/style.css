@@ -287,7 +287,6 @@ a {
     font-weight: 700;
     font-size: 18px;
     border: none;
-    background-color: none;
 }
 
 /********************** Populaires *************************************************/
@@ -340,7 +339,6 @@ a {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    gap: 30;
 }
 
 .activites h2 {
